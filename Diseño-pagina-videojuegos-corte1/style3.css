@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Roboto+Condensed&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;700&family=Roboto+Condensed&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300;700&family=Roboto+Condensed&family=Roboto:wght@700&family=Work+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;  
+}
+                                             /*------------------Contendeores---------------------*/
+.header-container{
+    display: flex;
+     height: 100px;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: #EFEFEF;
+}
+
+.contenedor-frases{
+    margin-top: 53px;
+    margin-left: 207px;
+}
+
+.contenedor-formulario{
+    width: 1200px;
+    height: 1381px;
+    background-color: #EFEFEF;
+    margin-top: 44px;
+    margin-bottom: 71px;
+    border-radius: 25px;
+}
+
+.contenedor-footer{
+   background-color: #707070;
+   display: flex;
+   height: 100px;
+  justify-content: space-between;
+  height: 250px; 
+}
+
+.contenedor-div-capturas{
+  display: flex;
+  justify-content: center;
+}
+                                                    /*------------------nav-header---------------------*/  
+.nav-menu{
+    margin-right: 160px; 
+ }
+
+ .nav-menu img{
+    width: 34px;
+    vertical-align: middle;
+ }
+
+.boton-logo{
+    width: 195px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 159px;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.nav-link{
+   padding: 30px;
+   font-size: 18px;
+   text-decoration: none;
+   font-family: 'Lato', sans-serif;
+   color: rgb(0, 0, 0);
+}
+                                            /*------------------seccion frases---------------------*/  
+.contenedor-frases h1{
+   font-size: 24px;
+   font-family: 'Lato', sans-serif;
+   color: #737373;
+}
+
+.contenedor-frases p{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #737373; 
+ }
+
+.contenedor-div-capturas{
+    display: flex;
+}
+                                             /*------------------formularios---------------------*/  
+.formulario-base{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.formulario-genero label{
+    margin-left: 169px;
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px;
+    color: #707070;
+}
+
+.formulario-genero select{
+    width: 275px;
+    height: 40px;
+    margin-top: 31px;
+    border-radius: 25px;
+    border: 1px solid #E3E3E3;
+    color: #BFBFBF; 
+}
+
+.formulario-plataformas label{
+    margin-left: 58px;
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px;
+    color: #707070;
+}
+
+.formulario-plataformas select{
+    width: 419px;
+    height: 40px;
+    margin-top: 24px;
+    border-radius: 25px;
+    border: 1px solid #E3E3E3;
+    color: #BFBFBF; 
+}
+
+.formulario-modos label{
+    margin-left: 117px;
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px;
+    color: #707070;
+}
+    
+.formulario-modos select{
+    width: 419px;
+    height: 40px;
+    margin-top: 24px;
+    border-radius: 25px;
+    border: 1px solid #E3E3E3;
+    color: #BFBFBF; 
+}
+
+.formulario-historia label{
+    margin-bottom: 100px;
+    margin-left: 90px;
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px;
+    color: #707070;
+}
+
+.formulario-historia input{
+    width: 494px;
+    height: 217px;
+    margin-top: 24px;
+    border-radius: 25px;
+    border: 1px solid #E3E3E3;
+}
+
+.formulario-historia p{
+    margin-left: 610px;
+    font-family: 'Lato', sans-serif; 
+    font-size: 14px;
+    color: #BFBFBF;
+}
+
+.formulario-archivo label{
+    margin-bottom: 100px;   
+    margin-left: 90px;
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px;
+    color: #707070;
+ }
+
+.formulario-archivo input{
+    width: 419px;
+    height: 40px;
+    margin-top: 61px;
+    border-radius: 25px;
+    border: 1px solid #E3E3E3;
+    background-color: #E2E2E2; 
+}
+
+.formulario-captura label{
+    margin-bottom: 100px;   
+    margin-left: 58px;
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px;
+    color: #707070;
+   }
+  
+.formulario-captura input{
+    width: 419px;
+    height: 40px;
+    margin-top: 24px;
+    border-radius: 25px;
+    border: 1px solid #E3E3E3;
+    background-color: #E2E2E2; 
+  }
+
+.div-img{
+    width: 239px;
+    height: 154px;
+    background-color: #FCFCFC ;
+    margin-top: 24px;
+    margin-left: 230px;
+    border-radius: 25px;
+  }  
+
+.div-img1{
+    width: 239px;
+     height: 154px;
+    background-color: #FCFCFC ;
+    margin-top: 24px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.div-img2{
+    width: 239px;
+    height: 154px;
+    background-color: #FCFCFC ;
+    margin-top: 24px;
+    margin-left: 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.div-img3{
+    width: 239px;
+    height: 154px;
+    background-color: #FCFCFC ;
+    margin-top: 24px;
+    margin-left: 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-requisitos label{
+    margin-bottom: 100px;
+    margin-left: 90px;
+    font-family: 'Lato', sans-serif; 
+    font-size: 16px;
+    color: #707070;
+}
+  
+      
+.formulario-requisitos input{
+    background-color: #FCFCFC;
+    width: 494px;
+    height: 217px;
+    margin-top: 40px;
+    border-radius: 25px;
+    border: 1px solid #E3E3E3;
+}
+  
+  .formulario-requisitos p{
+    margin-left: 610px;
+    font-family: 'Lato', sans-serif; 
+    font-size: 14px;
+    color: #BFBFBF;
+}
+                                                /*------------------footer---------------------*/  
+.descripcion-footer{
+    margin-left: 160px;
+}
+  
+.descripcion-footer p{
+    margin-top: 13px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+  
+.navegacion-footer{
+    margin-top: 55px ;
+}
+  
+.nav-footer-a {
+    display: block;
+    margin-bottom: 14px; 
+    text-decoration: none; 
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+  
+.contactos-footer{
+    margin-right: 210px;
+    margin-top: 55px;
+    text-decoration: none; 
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+  }
+                                            /*------------------botones/iconos---------------------*/  
+.boton-recomendacion{
+    width: 210px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 235px;
+    border: 1px solid #707070;
+}
+
+.boton-logo2{
+    width: 195px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-top: 24px;
+}
+
+.iconos-redes{
+    margin-top: 25px;
+}
+
+.iconos-redes img{
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+}
+
+.icono-mas{
+    width: 24px;
+    vertical-align: middle;
+}
+
