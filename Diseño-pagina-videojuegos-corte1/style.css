@@ -86,38 +86,122 @@ align-items: center;
    color: rgb(0, 0, 0);
 }
                                                       /*------------------seccion recomendacion---------------------*/
-.recomendacion-texto{
-    margin-left: 130px;
+#slider-main{
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#slider-main>ul, 
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#slider-main>ul.slider{
+    position: relative;
+    width: 100%;
+    height: 433px;
+}
+
+#slider-main>ul.slider li{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity 0.5s ease-in-out;
+    background: #fff;
+}
+
+#slider-main>ul.slider li:first-child{
+    opacity: 1;
+}
+
+#slider-main>ul.slider li:target{
+    opacity: 1;
+}
+
+#slider-main>.menu-slider{
+    text-align: center;
+    margin: 20px;
+}
+
+#slider-main>.menu-slider li{
+    display: inline-block;
+    text-align: center;
+}
+
+#slider-main>.menu-slider li a {
+    display: inline-block;
+}
+
+#slider-main>.menu-slider img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.main-add{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 88px;
+    overflow: hidden;
+}
+
+.section-add-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 745px;
+    min-height: 256px;
+    overflow: hidden;
+
+}
+
+.title-add-container {
+    display: flex;
+    font: normal normal 900 38px/44px Lato;
+    letter-spacing: 0px;
     color: #707070;
-    font-family: 'Lato', sans-serif;
+    opacity: 1;
+    margin-bottom: 24px;
+    height: 96px;
 }
 
-.recomendacion-texto h1{
-    font-size: 40px;
+
+.paragraph-add-container{
+    font: normal normal 300 20px/24px Lato;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin-bottom: 24px;
 }
 
-.recomendacion-texto p{
-    font-size: 20px;
-}
-
-.boton-recomendacion{
+.button-add{
+    background-color: #000000;
+    border: 1px solid #707070;
+    border-radius: 25px;
     width: 210px;
     height: 40px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-family: Roboto, sans-serif;
-    border-radius: 25px;
-    margin-top: 30px;
-    border: 1px solid #707070;
-}
+    font: normal normal bold 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
 
-.recomendacion-imagen{
-    background-color: #EFEFEF;;
-    margin-right: 140px; 
+}
+.img-add-container{
     width: 535px;
     height: 299px;
-    text-align: center;
-    border-radius: 20px;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.menu-slider{
+   margin-top: -100px; 
 }
                                                  /*------------------seccion destacados---------------------*/
 .encabezado-destacados h1{
